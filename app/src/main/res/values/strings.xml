@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoPlus для Signal</string>
+    <string name="accessibility_description">Автоматично ставить реакцію плюс на повідомлення «Всі в укритті» у відкритому чаті Signal.</string>
+</resources>
