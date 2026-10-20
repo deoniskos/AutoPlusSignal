@@ -18,9 +18,10 @@ jobs:
       - name: Recreate Android project
         shell: bash
         run: |
+          cat bundle.part1 bundle.part2 bundle.part3 bundle.part4 bundle.part5 > project.zip.b64
           base64 -d project.zip.b64 > project.zip
           unzip -q project.zip
-          rm project.zip
+          rm project.zip project.zip.b64
 
       - name: Set up Java 17
         uses: actions/setup-java@v4
